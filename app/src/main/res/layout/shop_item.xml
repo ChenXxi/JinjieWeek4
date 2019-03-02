@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="@dimen/dp_14"
+    android:layout_width="match_parent" android:layout_height="@dimen/dp_97">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/care_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:layout_gravity="center_vertical"
+                    android:drawableTop="@drawable/ck_sel" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/qianbao_shape"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/care_img"
+                    android:layout_width="@dimen/dp_81"
+                    android:layout_height="@dimen/dp_81"
+                    android:layout_marginLeft="@dimen/dp_18"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginBottom="@dimen/dp_8" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="@dimen/sp_12"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="#666666"
+                        android:id="@+id/care_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:text="11111" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/care_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:text="111111"
+                            android:textColor="#ff0606"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/care_jian"
+                            android:textColor="#666666"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginRight="@dimen/dp_3"
+                            android:layout_marginBottom="@dimen/dp_20"
+                            android:src="@mipmap/jian"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:textColor="#666666"
+                            android:id="@+id/care_shu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:background="#ddd"
+                            android:paddingLeft="@dimen/dp_5"
+                            android:paddingRight="@dimen/dp_5"
+                            android:text="111" />
+
+                        <ImageView
+                            android:id="@+id/care_jia"
+                            android:textColor="#666666"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginLeft="@dimen/dp_3"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:layout_marginBottom="@dimen/dp_20"
+                            android:src="@mipmap/jia"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
